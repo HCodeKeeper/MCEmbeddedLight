@@ -17,7 +17,7 @@ As a temporar patch, you can find the line with ```python errorMessage``` in PyL
 If you don't have python:
   Install python on the official site.
 
-Locate MCEmbeddedLight.jar in plugins folder in your papermc server directory.
+Locate MCEmbeddedLight.jar in plugins folder in your papermc server directory. To do that, move on to Setup section
 
 ## Setup
 Create config.py in pyreciever with contents:
