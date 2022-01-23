@@ -11,7 +11,7 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install followi
 pip3 install PyP100
 ```
 PyP100(https://github.com/fishbigger/TapoP100) is used by the assembly to communicate with tp_link tapo l530e bulb.
-**During the development of this assembly TapoP100 had an issue, which can lead to wrong behavior!**
+**During the development of this assembly TapoP100 had an issue, which could lead to wrong behavior!**
 As a temporar patch, you can find the line with ```python errorMessage``` in PyL530.py and delete everything until the next ```python def```.
 
 If you don't have python:
