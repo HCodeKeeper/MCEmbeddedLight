@@ -33,8 +33,7 @@ To get your bulb_ip use tapo app on your phone.
 Fill with your data.
 
 Set your minecraft profile username in Main.java in listener's parameters. Proceed with compiling artifact(.jar will be saved in out directory) [Most likely to be done in IntelliJ]. After that, place the .jar file in plugins.
-OR
-Set your username as user.
+OR Set your username as user.
 
 ## Usage
 While running your minecraft server and having your minecraft client connected, execute main.py file in pyreciever folder by double-clicking.
