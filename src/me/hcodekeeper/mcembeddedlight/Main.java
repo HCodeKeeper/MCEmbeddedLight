@@ -9,7 +9,7 @@ public class Main extends JavaPlugin{
 
     @Override
     public void onEnable(){
-        lightListener = new LightListener("user");
+        lightListener = new LightListener("user"); //change to listen to other player
         getServer().getPluginManager().registerEvents(lightListener, this);
         this.getCommand("getlight").setExecutor(new CommandGetLight(lightListener));
         Bukkit.getLogger().info(ChatColor.GREEN + "Enabled" + this.getName());

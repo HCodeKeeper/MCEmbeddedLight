@@ -16,4 +16,3 @@ def run(config, func):
     default = formate_default(l530)
     func(config, l530)
     restore(l530, default)
-    l530.turnOff()

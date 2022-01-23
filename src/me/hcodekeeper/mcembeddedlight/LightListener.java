@@ -22,12 +22,6 @@ public class LightListener implements Listener {
     @EventHandler
     public void onPlayerLightChange(PlayerMoveEvent plMoveE){
         if(!(playerToListen.equals(plMoveE.getPlayer().getName()))){
-            try(FileWriter fw = new FileWriter("D:\\Github\\MCEmbeddedLight\\LOG.txt")){
-                fw.write("ARR");
-            }
-            catch (IOException e){
-
-            }
             return;
         }
         Location playerDestination = plMoveE.getTo();
