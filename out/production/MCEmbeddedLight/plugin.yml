@@ -1,0 +1,8 @@
+name: EmbeddedLight_1.18.1
+version: 0.1
+author: HCodeKeeper
+main: me.hcodekeeper.mcembeddedlight.Main
+api-version: 1.17
+commands:
+  getlight:
+    description: "Sends light level of a bound user to a rcon listener"
